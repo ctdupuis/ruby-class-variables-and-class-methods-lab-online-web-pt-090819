@@ -29,6 +29,14 @@ class Song
   end
   
   def self.genre_count
+    new = {}
+    @@genres.each do |gen|
+      if !(new.keys.include?(gen))
+        new[gen] = 1 
+      elsif new.keys.include?(gen)
+        new[gen] += 1 
+      end
+    end
     binding.pry
   end
 end
