@@ -45,7 +45,7 @@ class Song
     @@artists.each do |art|
       if !(new.keys.include?(art))
         new[art] = 1 
-      else
+      elsif new.keys.include?(art)
         new[art] += 1
       end
     end
