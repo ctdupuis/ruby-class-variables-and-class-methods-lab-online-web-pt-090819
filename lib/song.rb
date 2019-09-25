@@ -37,6 +37,6 @@ class Song
         new[gen] += 1 
       end
     end
-    binding.pry
+    new
   end
 end
