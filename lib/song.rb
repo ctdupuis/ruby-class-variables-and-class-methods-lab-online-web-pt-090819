@@ -9,7 +9,7 @@ def Song
     @@count += 1
     @name = name
     @artist = artist
-    @genre = 
+    @genre = genre
     @@genres << genre
     @@artists << artist
   end
