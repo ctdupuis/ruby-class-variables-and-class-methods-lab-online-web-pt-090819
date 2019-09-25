@@ -49,5 +49,7 @@ class Song
         new[art] += 1
       end
     end
-  new
+    new
+  end
+
 end
